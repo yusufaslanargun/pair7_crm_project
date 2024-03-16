@@ -48,7 +48,7 @@ public class Customer {
 
     @Column(name = "account_number")
     private int accountNumber;
-    
+
     public int getCustomerId() {
         return customerId;
     }
